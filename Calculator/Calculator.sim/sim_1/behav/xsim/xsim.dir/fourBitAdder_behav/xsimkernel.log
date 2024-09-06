@@ -1,4 +1,4 @@
-Running: xsim.dir/fourBitAdder_behav/xsimk -simmode gui -wdb fourBitAdder_behav.wdb -simrunnum 0 -socket 33869
+Running: xsim.dir/fourBitAdder_behav/xsimk -simmode gui -wdb fourBitAdder_behav.wdb -simrunnum 0 -socket 59657
 Design successfully loaded
 Design Loading Memory Usage: 20248 KB (Peak: 20720 KB)
 Design Loading CPU Usage: 20 ms

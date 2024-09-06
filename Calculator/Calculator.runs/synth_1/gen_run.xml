@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1725591205">
-  <File Type="VDS-TIMINGSUMMARY" Name="fourBitAdder_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="fourBitAdder.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="fourBitAdder_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="fourBitAdder_utilization_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="fourBitAdder_timing_summary_synth.pb"/>
+  <File Type="RDS-UTIL-PB" Name="test_display_utilization_synth.pb"/>
   <File Type="PA-TCL" Name="fourBitAdder.tcl"/>
+  <File Type="RDS-UTIL" Name="test_display_utilization_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="fourBitAdder_reports.tcl"/>
   <File Type="RDS-RDS" Name="fourBitAdder.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="fourBitAdder_drc_synth.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/Verilog/design.sv">
@@ -47,9 +44,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

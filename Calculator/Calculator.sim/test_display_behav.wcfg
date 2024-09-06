@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_display_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_display" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,990 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,003 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject type="array" fp_name="/test_display/A">
+      <obj_property name="ElementShortName">A[15:0]</obj_property>
+      <obj_property name="ObjectShortName">A[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_display/B">
+      <obj_property name="ElementShortName">B[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/test_display/result">
+      <obj_property name="ElementShortName">result[15:0]</obj_property>
+      <obj_property name="ObjectShortName">result[15:0]</obj_property>
+   </wvobject>
+</wave_config>

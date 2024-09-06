@@ -3,8 +3,8 @@
 # SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
 # IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
 # SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
-# Start of session at: Thu Sep  5 22:42:20 2024
-# Process ID: 179346
+# Start of session at: Thu Sep  5 21:48:56 2024
+# Process ID: 150519
 # Current directory: /home/thebcwonder/Documents/Verilog
 # Command line: vivado
 # Log file: /home/thebcwonder/Documents/Verilog/vivado.log
@@ -13,13 +13,13 @@
 # Platform          :Pop
 # Operating System  :Pop!_OS 22.04 LTS
 # Processor Detail  :AMD Ryzen 7 7700X 8-Core Processor
-# CPU Frequency     :4385.792 MHz
+# CPU Frequency     :400.000 MHz
 # CPU Physical cores:8
 # CPU Logical cores :16
 # Host memory       :32717 MB
 # Swap memory       :21474 MB
 # Total Virtual     :54191 MB
-# Available Virtual :40911 MB
+# Available Virtual :45502 MB
 #-----------------------------------------------------------
 start_gui
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
@@ -83,13 +83,52 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-open_project /home/thebcwonder/Documents/Verilog/Calculator/Calculator.xpr
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/thebcwonder/Documents/Verilog/Calculator/Calculator.gen/sources_1'.
-Scanning sources...
-Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /tools/Xilinx/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Common 17-14] Message 'Board 49-26' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+create_project Calculator /home/thebcwonder/Documents/Verilog/Calculator -part xc7k70tfbv676-1
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2024.1/data/ip'.
+add_files -norecurse {/home/thebcwonder/Documents/Verilog/testbench.sv /home/thebcwonder/Documents/Verilog/design.sv}
+update_compile_order -fileset sources_1
 update_compile_order -fileset sources_1
 launch_simulation
 Command: launch_simulation 
@@ -103,14 +142,16 @@ INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim'
 xvlog --incr --relax -L uvm -prj fourBitAdder_vlog.prj
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/thebcwonder/Documents/Verilog/Calculator/Calculator.srcs/sources_1/imports/Verilog/design.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/thebcwonder/Documents/Verilog/design.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module halfAdder
 INFO: [VRFC 10-311] analyzing module fullAdder
 INFO: [VRFC 10-311] analyzing module fourBitAdder
 INFO: [VRFC 10-311] analyzing module sixteenBitAdder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
 Waiting for jobs to finish...
 No pending jobs, compilation finished.
-INFO: [USF-XSim-69] 'compile' step finished in '0' seconds
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim'
 xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot fourBitAdder_behav xil_defaultlib.fourBitAdder xil_defaultlib.glbl -log elaborate.log
@@ -152,78 +193,109 @@ source fourBitAdder.tcl
 # run 1000ns
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'fourBitAdder_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-set_property top test_display [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-12493] Simulation top is 'test_display'
-INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-72] Using boost library from '/tools/Xilinx/Vivado/2024.1/tps/boost_1_72_0'
-INFO: [SIM-utils-54] Inspecting design source files for 'test_display' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim'
-xvlog --incr --relax -L uvm -prj test_display_vlog.prj
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/thebcwonder/Documents/Verilog/testbench.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module test_display
-Waiting for jobs to finish...
-No pending jobs, compilation finished.
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim'
-xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_display_behav xil_defaultlib.test_display xil_defaultlib.glbl -log elaborate.log
-Vivado Simulator v2024.1
-Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
-Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
-Running: /tools/Xilinx/Vivado/2024.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot test_display_behav xil_defaultlib.test_display xil_defaultlib.glbl -log elaborate.log 
-Using 8 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-WARNING: [XSIM 43-4100] "/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
-WARNING: [XSIM 43-4100] "/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.halfAdder
-Compiling module xil_defaultlib.fullAdder
-Compiling module xil_defaultlib.sixteenBitAdder
-Compiling module xil_defaultlib.test_display
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot test_display_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "test_display_behav -key {Behavioral:sim_1:Functional:test_display} -tclbatch {test_display.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Time resolution is 1 ps
-source test_display.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-A: 0001001101110000, B: 0001101010000101
-result: 0010110111110101
-Decimal: 11765
-Binary: 0010110111110101
-Hex: 2df5
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_display_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-save_wave_config {/home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/test_display_behav.wcfg}
-add_files -fileset sim_1 -norecurse /home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/test_display_behav.wcfg
-set_property xsim.view /home/thebcwonder/Documents/Verilog/Calculator/Calculator.sim/test_display_behav.wcfg [get_filesets sim_1]
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
+run all
+add_bp {/home/thebcwonder/Documents/Verilog/design.sv} 15
+remove_bps -file {/home/thebcwonder/Documents/Verilog/design.sv} -line 15
+launch_runs impl_1 -jobs 8
+[Thu Sep  5 21:53:25 2024] Launched synth_1...
+Run output will be captured here: /home/thebcwonder/Documents/Verilog/Calculator/Calculator.runs/synth_1/runme.log
+[Thu Sep  5 21:53:25 2024] Launched impl_1...
+Run output will be captured here: /home/thebcwonder/Documents/Verilog/Calculator/Calculator.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+INFO: [Device 21-9227] Part: xc7k70tfbv676-1 does not have CEAM library.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8349.844 ; gain = 0.000 ; free physical = 9214 ; free virtual = 40475
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8411.352 ; gain = 0.000 ; free physical = 9121 ; free virtual = 40386
+INFO: [Designutils 20-5722] Start Reading Physical Databases.
+Reading placement.
+Read Netlist Cache: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8412.352 ; gain = 0.000 ; free physical = 9113 ; free virtual = 40378
+Reading placer database...
+Read Device Cache: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8414.352 ; gain = 2.000 ; free physical = 9113 ; free virtual = 40378
+Read PlaceDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8414.352 ; gain = 0.000 ; free physical = 9113 ; free virtual = 40378
+Read PulsedLatchDB: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8414.352 ; gain = 0.000 ; free physical = 9113 ; free virtual = 40378
+Reading routing.
+Read RouteStorage: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8462.375 ; gain = 48.023 ; free physical = 9105 ; free virtual = 40370
+Read Physdb Files: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8462.375 ; gain = 50.023 ; free physical = 9105 ; free virtual = 40370
+Restored from archive | CPU: 0.010000 secs | Memory: 0.052231 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8462.375 ; gain = 50.023 ; free physical = 9105 ; free virtual = 40370
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8858.352 ; gain = 0.000 ; free physical = 10547 ; free virtual = 41811
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+add_files -norecurse /home/thebcwonder/Documents/Verilog/design.sv
+WARNING: [filemgmt 56-12] File '/home/thebcwonder/Documents/Verilog/design.sv' cannot be added to the project because it already exists in the project, skipping this file
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7k70tfbv676-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9074.562 ; gain = 0.000 ; free physical = 9585 ; free virtual = 40889
+INFO: [Project 1-479] Netlist was created with Vivado 2024.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9089.246 ; gain = 0.000 ; free physical = 9613 ; free virtual = 40917
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+add_files -norecurse -scan_for_includes /home/thebcwonder/Documents/Verilog/design.sv
+WARNING: [filemgmt 56-12] File '/home/thebcwonder/Documents/Verilog/design.sv' cannot be added to the project because it already exists in the project, skipping this file
+import_files -norecurse /home/thebcwonder/Documents/Verilog/design.sv
+set_property top test_display [current_fileset]
+update_compile_order -fileset sources_1
+current_design impl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7k70tfbv676-1
+Top: test_display
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 159457
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 9551.359 ; gain = 204.859 ; free physical = 8890 ; free virtual = 40202
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'test_display' [/home/thebcwonder/Documents/Verilog/testbench.sv:2]
+INFO: [Synth 8-251] A: 16'bxxxxxxxxxxxxxxxx, B: 16'bxxxxxxxxxxxxxxxx [/home/thebcwonder/Documents/Verilog/testbench.sv:14]
+INFO: [Synth 8-251] result: 16'bxxxxxxxxxxxxxxxx [/home/thebcwonder/Documents/Verilog/testbench.sv:15]
+INFO: [Synth 8-251] Decimal: x [/home/thebcwonder/Documents/Verilog/testbench.sv:17]
+INFO: [Synth 8-251] Binary: 16'bxxxxxxxxxxxxxxxx [/home/thebcwonder/Documents/Verilog/testbench.sv:18]
+INFO: [Synth 8-251] Hex: xxxx [/home/thebcwonder/Documents/Verilog/testbench.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'sixteenBitAdder' [/home/thebcwonder/Documents/Verilog/Calculator/Calculator.srcs/sources_1/imports/Verilog/design.sv:30]
+INFO: [Synth 8-6157] synthesizing module 'halfAdder' [/home/thebcwonder/Documents/Verilog/Calculator/Calculator.srcs/sources_1/imports/Verilog/design.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'halfAdder' (0#1) [/home/thebcwonder/Documents/Verilog/Calculator/Calculator.srcs/sources_1/imports/Verilog/design.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder' [/home/thebcwonder/Documents/Verilog/Calculator/Calculator.srcs/sources_1/imports/Verilog/design.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder' (0#1) [/home/thebcwonder/Documents/Verilog/Calculator/Calculator.srcs/sources_1/imports/Verilog/design.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'sixteenBitAdder' (0#1) [/home/thebcwonder/Documents/Verilog/Calculator/Calculator.srcs/sources_1/imports/Verilog/design.sv:30]
+INFO: [Synth 8-6155] done synthesizing module 'test_display' (0#1) [/home/thebcwonder/Documents/Verilog/testbench.sv:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 9623.328 ; gain = 276.828 ; free physical = 8788 ; free virtual = 40100
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 9623.328 ; gain = 276.828 ; free physical = 8788 ; free virtual = 40100
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 9623.328 ; gain = 276.828 ; free physical = 8788 ; free virtual = 40100
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9623.336 ; gain = 0.000 ; free physical = 8788 ; free virtual = 40100
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9684.141 ; gain = 0.000 ; free physical = 9047 ; free virtual = 40359
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:07 ; elapsed = 00:00:04 . Memory (MB): peak = 9724.148 ; gain = 377.648 ; free physical = 9047 ; free virtual = 40359
+18 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Sep  5 22:45:35 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  5 22:13:22 2024...
