@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Sep  5 21:48:56 2024
+# Process ID: 150519
+# Current directory: /home/thebcwonder/Documents/Verilog
+# Command line: vivado
+# Log file: /home/thebcwonder/Documents/Verilog/vivado.log
+# Journal file: /home/thebcwonder/Documents/Verilog/vivado.jou
+# Running On        :pop-os
+# Platform          :Pop
+# Operating System  :Pop!_OS 22.04 LTS
+# Processor Detail  :AMD Ryzen 7 7700X 8-Core Processor
+# CPU Frequency     :400.000 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :32717 MB
+# Swap memory       :21474 MB
+# Total Virtual     :54191 MB
+# Available Virtual :45502 MB
+#-----------------------------------------------------------
+start_gui
+create_project Calculator /home/thebcwonder/Documents/Verilog/Calculator -part xc7k70tfbv676-1
+add_files -norecurse {/home/thebcwonder/Documents/Verilog/testbench.sv /home/thebcwonder/Documents/Verilog/design.sv}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+source fourBitAdder.tcl
+run all
+add_bp {/home/thebcwonder/Documents/Verilog/design.sv} 15
+remove_bps -file {/home/thebcwonder/Documents/Verilog/design.sv} -line 15
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+add_files -norecurse /home/thebcwonder/Documents/Verilog/design.sv
+open_run synth_1 -name synth_1
+add_files -norecurse -scan_for_includes /home/thebcwonder/Documents/Verilog/design.sv
+import_files -norecurse /home/thebcwonder/Documents/Verilog/design.sv
+set_property top test_display [current_fileset]
+update_compile_order -fileset sources_1
+current_design impl_1
+close_design
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+close_sim

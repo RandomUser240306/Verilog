@@ -1,0 +1,199 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Sep  5 21:53:27 2024
+# Process ID: 152188
+# Current directory: /home/thebcwonder/Documents/Verilog/Calculator/Calculator.runs/synth_1
+# Command line: vivado -log fourBitAdder.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fourBitAdder.tcl
+# Log file: /home/thebcwonder/Documents/Verilog/Calculator/Calculator.runs/synth_1/fourBitAdder.vds
+# Journal file: /home/thebcwonder/Documents/Verilog/Calculator/Calculator.runs/synth_1/vivado.jou
+# Running On        :pop-os
+# Platform          :Pop
+# Operating System  :Pop!_OS 22.04 LTS
+# Processor Detail  :AMD Ryzen 7 7700X 8-Core Processor
+# CPU Frequency     :5201.165 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :32717 MB
+# Swap memory       :21474 MB
+# Total Virtual     :54191 MB
+# Available Virtual :44340 MB
+#-----------------------------------------------------------
+source fourBitAdder.tcl -notrace
+Command: synth_design -top fourBitAdder -part xc7k70tfbv676-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 152224
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1813.312 ; gain = 383.777 ; free physical = 10062 ; free virtual = 41254
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'fourBitAdder' [/home/thebcwonder/Documents/Verilog/design.sv:19]
+INFO: [Synth 8-6157] synthesizing module 'halfAdder' [/home/thebcwonder/Documents/Verilog/design.sv:2]
+INFO: [Synth 8-6155] done synthesizing module 'halfAdder' (0#1) [/home/thebcwonder/Documents/Verilog/design.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'fullAdder' [/home/thebcwonder/Documents/Verilog/design.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'fullAdder' (0#1) [/home/thebcwonder/Documents/Verilog/design.sv:9]
+INFO: [Synth 8-6155] done synthesizing module 'fourBitAdder' (0#1) [/home/thebcwonder/Documents/Verilog/design.sv:19]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1889.281 ; gain = 459.746 ; free physical = 9971 ; free virtual = 41167
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1904.125 ; gain = 474.590 ; free physical = 9971 ; free virtual = 41166
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbv676-1
+INFO: [Device 21-403] Loading part xc7k70tfbv676-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1912.129 ; gain = 482.594 ; free physical = 9971 ; free virtual = 41166
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1921.035 ; gain = 491.500 ; free physical = 9967 ; free virtual = 41164
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 7     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Device 21-9227] Part: xc7k70tfbv676-1 does not have CEAM library.
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41030
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41030
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41030
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     1|
+|2     |LUT4 |     2|
+|3     |LUT5 |     1|
+|4     |LUT6 |     1|
+|5     |IBUF |     8|
+|6     |OBUF |     4|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    17|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.590 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+Synthesis Optimization Complete : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2053.598 ; gain = 624.055 ; free physical = 9806 ; free virtual = 41028
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2053.598 ; gain = 0.000 ; free physical = 10055 ; free virtual = 41277
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2181.336 ; gain = 0.000 ; free physical = 10000 ; free virtual = 41226
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: cfa78103
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2181.336 ; gain = 751.801 ; free physical = 10000 ; free virtual = 41226
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1398.893; main = 1398.893; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2181.340; main = 2181.340; forked = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2205.348 ; gain = 0.000 ; free physical = 10000 ; free virtual = 41226
+INFO: [Common 17-1381] The checkpoint '/home/thebcwonder/Documents/Verilog/Calculator/Calculator.runs/synth_1/fourBitAdder.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file fourBitAdder_utilization_synth.rpt -pb fourBitAdder_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Sep  5 21:53:38 2024...
