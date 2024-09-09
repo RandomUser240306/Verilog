@@ -1,4 +1,26 @@
-// Code your design here
+// Bitwise operations
+module not16(A, out);
+  input [15:0] A;
+  output [15:0] out;
+  not not0(out[0], A[0]);
+  not not1(out[1], A[1]);
+  not not2(out[2], A[2]);
+  not not3(out[3], A[3]);
+  not not4(out[4], A[4]);
+  not not5(out[5], A[5]);
+  not not6(out[6], A[6]);
+  not not7(out[7], A[7]);
+  not not8(out[8], A[8]);
+  not not9(out[9], A[9]);
+  not not10(out[10], A[10]);
+  not not11(out[11], A[11]);
+  not not12(out[12], A[12]);
+  not not13(out[13], A[13]);
+  not not14(out[14], A[14]);
+  not not15(out[15], A[15]);
+endmodule
+  
+// Adders
 module halfAdder(A, B, carry, result);
   input A, B;
   output carry, result;
@@ -15,23 +37,12 @@ module fullAdder(A, B, carryIn, sum, carryOut);
   or carryOut3(carryOut, carryOut1, carryOut2);
 endmodule
 
-
-module fourBitAdder(A, B, out);
-  input [3:0] A, B;
-  output [3:0] out;
-  wire carry1, carry2, carry3, overflow;
-  halfAdder start(A[0], B[0], carry1, out[0]);
-  fullAdder add1(A[1], B[1], carry1, out[1], carry2);
-  fullAdder add2(A[2], B[2], carry2, out[2], carry3);
-  fullAdder add3(A[3], B[3], carry3, out[3], overflow);
-  
-endmodule
-
-module sixteenBitAdder(A, B, out);
+module add16(A, B, out, carryIn);
   input [15:0] A, B;
+  input [0:0] carryIn;
   output [15:0] out;
   wire carry1, carry2, carry3, carry4, carry5, carry6, carry7, carry8, carry9, carry10, carry11, carry12, carry13, carry14, carry15, overflow;
-  halfAdder start(A[0], B[0], carry1, out[0]);
+  fullAdder start(A[0], B[0], carryIn, out[0], carry1);
   fullAdder add1(A[1], B[1], carry1, out[1], carry2);
   fullAdder add2(A[2], B[2], carry2, out[2], carry3);
   fullAdder add3(A[3], B[3], carry3, out[3], carry4);
@@ -49,3 +60,11 @@ module sixteenBitAdder(A, B, out);
   fullAdder add15(A[15], B[15], carry15, out[15], overflow);
   
 endmodule
+
+module subtract16(A, B, out);
+    input [15:0] A, B;
+    output [15:0] out;
+    wire [15:0] invertB;
+    not16 invert(B, invertB);
+    add16 add(A, invertB, out, 1);
+endmodule 
